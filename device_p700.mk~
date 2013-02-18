@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES := \
         $(LOCAL_PATH)/configs/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
+        $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
 # Permission files
 PRODUCT_COPY_FILES += \
@@ -64,6 +64,3 @@ $(call inherit-product, build/target/product/full.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_p700
 PRODUCT_DEVICE := p700
-
-alessandro conta gli animali in due recinti 
-in tutto sono 64 animali ma se ne facessimo uscire 2 dal primo recinto e li mandassimo nel secondo i due recinti ne racchiuderebbero lo stesso numero 

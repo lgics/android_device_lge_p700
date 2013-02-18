@@ -36,10 +36,18 @@ PRODUCT_COPY_FILES := \
 	device/lge/p700/prebuilt/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
 	device/lge/p700/prebuilt/wlan.ko:system/lib/modules \
 	device/lge/p700/prebuilt/volans/WCN1314_rf.ko:system/lib/modules/volans/WCN1314_rf.ko \
-        $(LOCAL_PATH)/configs/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf 
 
 PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
         $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
+
+# Keylayout
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
+        $(LOCAL_PATH)/configs/u0_keypad.kl:system/usr/keylayout/u0_keypad.kl \
+        $(LOCAL_PATH)/configs/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
+        $(LOCAL_PATH)/configs/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
+        $(LOCAL_PATH)/configs/melfas-ts.kl:system/usr/keylayout/melfas-ts.kl 
 
 # Permission files
 PRODUCT_COPY_FILES += \
