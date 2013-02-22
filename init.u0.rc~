@@ -583,16 +583,6 @@ service qmuxd /system/bin/qmuxd
 #    hoonsung.park@lge.com no card issue :  from E0
 #    disabled
 
-service lgsecclk /system/bin/lgsecclkserver
-    class main
-    user system
-    group system lgdrm_acc sdcard_rw media_rw
-
-service lgdrm /system/bin/lgdrmserver
-    class main
-    user lgdrm
-    group lgdrm_acc sdcard_rw media_rw system radio qcom_oncrpc
-
 service netmgrd /system/bin/netmgrd
     class late_start
     disabled

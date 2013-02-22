@@ -35,4 +35,6 @@ persist.sys.use_dithering=1
 debug.composition.7x27A.type=mdp
 debug.composition.7x25A.type=mdp
 
+
 ro.sf.lcd_density=240
+
