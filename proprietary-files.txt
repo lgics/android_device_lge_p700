@@ -43,6 +43,11 @@ lib/libdsm.so
 ## vendor firmwares
 vendor/firmware/libpn544_fw.so
 
+# HW
+#lib/hw/gralloc.msm7x27a.so
+#lib/hw/hwcomposer.msm7x27a.so
+#lib/hw/copybit.msm7x27a.so
+
 ## drm crap
 bin/lgdrmserver
 lib/liblgdrm.so

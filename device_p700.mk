@@ -69,10 +69,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libgenlock \
     liboverlay \
-    gralloc.msm7x27a \
-    hwcomposer.msm7x27a \
     gps.default \
+    gralloc.msm7x27a \
     copybit.msm7x27a \
+    hwcomposer.msm7x27a \
     audio.a2dp.default \
     audio.primary.msm7x27a \
     audio_policy.msm7x27a \

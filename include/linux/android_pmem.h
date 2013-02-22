@@ -18,6 +18,7 @@
 #define _ANDROID_PMEM_H_
 
 #include <linux/fs.h>
+#include <sys/ioctl.h>
 
 #define PMEM_KERNEL_TEST_MAGIC 0xc0
 #define PMEM_KERNEL_TEST_NOMINAL_TEST_IOCTL \
